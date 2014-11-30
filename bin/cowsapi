@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
+require 'thin'
+
 Dir.chdir "#{File.dirname(__FILE__)}/.."
-exec "rackup -s thin"
+exec "rackup -s thin -p #{ENV.fetch('PORT', 80)}" 
