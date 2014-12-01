@@ -9,14 +9,14 @@ Make cows say things, just like you always wanted to - over the internets!
 
 ## Installation
 To install cowsapi:
-```
+```bash
 gem install cowsapi
 ```
 
 ## Usage
 To launch cowsapi:
-```
-cowsapi
+```bash 
+port=9292 cowsapi
 ```
 
 This will launch cowsapi on port 9292.
