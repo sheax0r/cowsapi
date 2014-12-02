@@ -7,6 +7,14 @@ Make cows say things, just like you always wanted to - over the internets!
 * Make cows say things!
 * Supports both text and images of cows!
 
+## Preqrequisites
+You need some software installed in order to run cowsapi successfully.
+Here are instructions for install stuff on OSX:
+```bash
+brew install ImageMagick ghostscript
+
+```
+
 ## Installation
 To install cowsapi:
 ```bash

@@ -1,4 +1,6 @@
-require 'rspec/core/rake_task'
-RSpec::Core::RakeTask.new('spec')
+require 'bundler/setup'
+require 'padrino-core/cli/rake'
+
+PadrinoTasks.init
 
 task :default => :spec

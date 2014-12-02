@@ -23,4 +23,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'sinatra', '~> 1.4'
   spec.add_dependency 'thin', '~> 1.6'
   spec.add_dependency 'padrino', '~> 0.12'
+  spec.add_dependency 'slim', '~> 2.1.0'
 end
